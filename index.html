@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <!-- TODO: Add proper viewport meta tag to make page properly display on mobile devices. -->
+<meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
 
   <meta name="description" content="">
   <meta name="author" content="">
@@ -22,6 +22,44 @@
 </head>
 
 <body>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Boise Barn</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Portfolio
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="portfolio-1-col.html">Wedding Gallery</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Blog
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                <a class="dropdown-item" href="blog-home-1.html">Blog Home</a>
+              </div>
+            </li>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
   <!-- (1)Navigation -->
   <!-- TODO implement responsive navigation that matches your IA design -->
@@ -43,25 +81,25 @@
       <!-- TODO: (2)Add images to your repository and update this code so the carousel has proper slides. -->
 
       <div class="carousel-inner" role="listbox">
-        <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('http://placehold.it/1900x1080')">
+        
+        <div class="carousel-item active" style="background-image: url('images/Boise_BarnFoothills.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>First Slide</h3>
-            <p>This is a description for the first slide.</p>
+            <h3>The Boise Barn & Event Center</h3>
+            <p>Where you Create your Magic</p>
           </div>
         </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+       
+        <div class="carousel-item" style="background-image: url('images/Love_sign.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
+            <h3></h3>
+            <p>Your Invited</p>
           </div>
         </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
+        
+        <div class="carousel-item" style="background-image: url('images/JustMarried_bandw.jpg')">
           <div class="carousel-caption d-none d-md-block">
-            <h3>Third Slide</h3>
-            <p>This is a description for the third slide.</p>
+            <h3></h3>
+            <p>WRITE YOUR NEXT CHAPTER</p>
           </div>
         </div>
       </div>
@@ -127,8 +165,9 @@
     <!-- This section should have columns that are 4 units wide at size "md" and above, but 6 units wide at size "sm" and below. -->
 
     <h2>Portfolio Heading</h2>
-
+    
     <div class="row">
+      <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="portfolio-item">
         <div class="card h-100">
           <a href="#">
@@ -141,8 +180,10 @@
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet numquam aspernatur eum quasi sapiente nesciunt?
               Voluptatibus sit, repellat sequi itaque deserunt, dolores in, nesciunt, illum tempora ex quae? Nihil, dolorem!</p>
           </div>
+          </div>
         </div>
       </div>
+        <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="portfolio-item">
         <div class="card h-100">
           <a href="#">
@@ -155,8 +196,10 @@
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
               varius vitae.</p>
           </div>
+          </div>
         </div>
       </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="portfolio-item">
         <div class="card h-100">
           <a href="#">
@@ -169,8 +212,10 @@
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio
               velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
           </div>
+          </div>
         </div>
       </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="portfolio-item">
         <div class="card h-100">
           <a href="#">
@@ -183,8 +228,10 @@
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
               varius vitae.</p>
           </div>
+          </div>
         </div>
       </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="portfolio-item">
         <div class="card h-100">
           <a href="#">
@@ -197,8 +244,10 @@
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna
               varius vitae.</p>
           </div>
+          </div>
         </div>
       </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
       <div class="portfolio-item">
         <div class="card h-100">
           <a href="#">
@@ -210,6 +259,7 @@
             </h4>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident,
               perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
+          </div>
           </div>
         </div>
       </div>
