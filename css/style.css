@@ -1,0 +1,26 @@
+/*.flexbox {
+  display: flex; 
+  justify-content: center;
+}
+.flexbox p{
+  flex: 1;
+}*/
+
+
+/*container
+id
+selector
+class*/
+
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-item-flex {
+  flex: 0 1 auto;
+}
+body {
+  background-color: lightpink;
+}
